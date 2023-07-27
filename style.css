@@ -18,15 +18,28 @@ a {
     background-image: url(./Images/codeWorld.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     text-align: right;
 }
 
 .menu {
+    width: 46px;
+    height: 46px;
     display: flex;
     flex-direction: column;
     gap: 4px;
-    padding: 14px 18px; /* top-bottom  left-right*/
+    padding: 14px;
     background: #304EFF;
+    margin-left: auto;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-line {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
 }
 
 /* HEADER end */
