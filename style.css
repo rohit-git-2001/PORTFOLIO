@@ -44,4 +44,23 @@ a {
 
 /* HEADER end */
 
-/* Main Conteiner */
+/* Main Conteiner Start */
+
+.main-container{
+    width: 100%;
+    max-width: 1150px;
+    margin: auto;
+    margin-top: -100px;
+}
+
+/* Main Conteiner End */
+
+/* Intro section start */
+.intro-section {
+    display: flex;
+    box-shadow: 0px 0px 6px #9b9b9b;
+    background: #fff;
+    border-radius: 2px;
+    padding: 20px;
+}
+/* Intro section end */
