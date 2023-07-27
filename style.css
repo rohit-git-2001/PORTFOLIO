@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER start */
+.header {
+    height: 300px;
+    background-image: url(./Images/codeWorld.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 14px 18px; /* top-bottom  left-right*/
+    background: #304EFF;
+}
+
+/* HEADER end */
