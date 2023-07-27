@@ -15,7 +15,8 @@ a {
 /* HEADER start */
 .header {
     height: 300px;
-    background-image: url(./Images/codeWorld.jpg);
+    background-color: black;
+    background-image: url(../Images/codeWorld.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +30,8 @@ a {
     flex-direction: column;
     gap: 4px;
     padding: 14px;
-    background: #304EFF;
+    /* background: #304EFF; */
+    background-color: cornflowerblue;
     margin-left: auto;
     cursor: pointer;
     align-items: center;
@@ -56,6 +58,10 @@ a {
 /* Main Conteiner End */
 
 /* Intro section start */
+
+.intro-left {
+    width: 40%;
+}
 
 /* Intro section Left start */
 .intro-section {
@@ -98,14 +104,91 @@ a {
 }
 
 .left-intro-content .small-btn {
-    background: #304EFF;
+    /* background: #304EFF; */
+    background-color: cornflowerblue;
     color: #fff;
     display: inline-block;
     padding: 2px 5px;
     border-radius: 5px;
 }
+
 /* intro section left end */
 
 /* intro section right start */
+.intro-right {
+    width: 60%;
+    padding-left: 30px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 40px;
+}
+
+.profile-name {
+    font-size: 42px;
+    color: #4a4a4a;
+}
+
+.profile-designation {
+    font-size: 17px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+.intro-para {
+    letter-spacing: .3px;
+    font-size: 17px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    color: #4a4a4a;
+}
+
+.profile-btn {
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.primary-btn,
+.secondory-btn {
+    margin-top: 45px;
+    /* margin-left: 20px; */
+    background: cornflowerblue;
+    color: #fff;
+    border: none;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+
+.secondory-btn {
+
+    margin-left: 20px;
+    color: #c9c9c9;
+    background-color: #000;
+}
+
+.primary-btn:hover {
+    box-shadow: 0px 0px 6px #9b9b9b;
+    background-color: #fff;
+    color: cornflowerblue;
+}
+
+.secondory-btn:hover {
+    background: #e8e8e8;
+    color: #4a4a4a;
+    box-shadow: 0px 0px 6px #9b9b9b;
+}
+
 
 /* Intro section end */
