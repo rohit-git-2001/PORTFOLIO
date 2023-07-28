@@ -246,6 +246,22 @@ a {
     position: relative;
 }
 
+.skill-range-2 {
+    width: 55%;
+}
+
+.skill-range-3 {
+    width: 85%;
+}
+
+.skill-range-4 {
+    width: 88%;
+}
+
+.skill-range-5 {
+    width: 65%;
+}
+
 .skill-right-sign {
     width: 20px;
     position: absolute;
