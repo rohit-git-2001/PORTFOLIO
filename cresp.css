@@ -1,0 +1,62 @@
+/* Responsive CSS for max width 370px */
+@media screen and (max-width: 370px) {
+    header {
+      width: 95%;
+    }
+  
+    .item-logo {
+      font-size: 1.5rem;
+    }
+  
+    #section-01 {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    #section-01 img {
+      width: 50%;
+      margin: auto;
+    }
+  
+    #section-02,
+    #section-03,
+    #section-04,
+    #section-05 {
+      width: 95%;
+      padding: 20px;
+    }
+  
+    .item-bar {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .tasks {
+      margin: auto;
+    }
+  
+    .tasks .task {
+      width: 100%;
+    }
+  
+    .education,
+    .intro,
+    .links,
+    .contact,
+    footer {
+      width: 95%;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    footer {
+      padding: 10px;
+    }
+  
+    #rights {
+      font-size: 0.8rem;
+    }
+  }
+  
