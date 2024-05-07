@@ -27,7 +27,7 @@
         position: absolute;
         top: -95px;
         left: 100px;
-        color: red;
+        /* color: red; */
       }
 
       div {
@@ -39,7 +39,7 @@
 
         position: absolute;
         bottom: -15px;
-        left: 80px;
+        left: 50px;
       }
     }
 
