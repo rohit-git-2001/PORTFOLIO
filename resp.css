@@ -96,9 +96,9 @@
     .item-bar{
       padding: 0;
       
-      div{
+      /* div{
         /* padding: 0; */
-      }
+      /* } */ 
     }
   }
 
@@ -124,9 +124,9 @@
       div{
         width: 95%;
       }
-      p{
+      /* p{
         /* border: 1px solid red; */
-      }
+      /* } */
     }
 
     .education {
