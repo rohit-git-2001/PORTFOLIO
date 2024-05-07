@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 360px) {
   *{
     box-sizing: border-box;
   }
@@ -27,6 +27,7 @@
         position: absolute;
         top: -95px;
         left: 100px;
+        color: red;
       }
 
       div {
